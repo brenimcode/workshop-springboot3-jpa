@@ -67,6 +67,7 @@ public class OrderItem implements Serializable {
 		return Objects.equals(id, other.id);
 	}
 	
+	
 	public Product getProduct() {
 		return id.getProduct();
 	}
